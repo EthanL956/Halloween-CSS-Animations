@@ -92,5 +92,44 @@ animation: float 3s infinite;
 .pumpkin .eye.right {
   right:3.7em;
   border-left: 2.4em solid #401b03;
-
+border-bottom: 2.1em solid transparent;
+transform: rotate(30deg);
 }
+
+.pumpkin .eye.left {
+  left: 3.7em;
+  transform: rotate(-30deg);
+  border-bottom: 2.1em solid transparent;
+  border-right: 2.4em solid #401b03;
+}
+
+.pumpkin .mouth {
+  border-bottom: 1em solid #401b03;
+  position: absolute;
+  width: 4em;
+  height: 2em;
+  bottom: 1.5em;
+}
+
+.pumpkin .mouth.right {
+  right: 3.76em;
+  border-radius: 0 0 100% 0;
+  }
+
+  .pumpkin .mouth.left {
+    left: 3.6em;
+    border-radius: 0 0 0 100%;
+  }
+
+  .pumpkin .teeth {
+    border-left: 0.8em solid #401b03;
+    border-bottom: 0 solid transparent;      
+    border-top: 0.8em solid transparent;       
+    width: 0.5em;
+    height: 1em;
+    position: absolute;
+    top: 7.7em;
+    left: 7.25em;                                                              
+  }
+
+  .pumpkin
